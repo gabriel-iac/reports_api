@@ -9,7 +9,8 @@ gem 'rails', '~> 5.2.0'
 gem 'mysql2', '~> 0.5.1'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
-gem 'active_model_serializers', '~> 0.10.0'
+gem 'fast_jsonapi'
+#gem 'active_model_serializers', '~> 0.10.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
@@ -43,6 +44,7 @@ end
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.5'
+  gem 'pry'
 end
 
 group :test do
